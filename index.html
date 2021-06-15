@@ -12,15 +12,15 @@
     <h1 title="Форма регистрации">Регистрация</h1>
     <div class="group">
         <label for="">Фамилия:</label>
-        <textarea><input type="text" name="FirstName" maxlength="16"></textarea>
+        <input type="text"pattern="[A-Za-zА-Яа-яЁё]" name="FirstName" maxlength="16">
     </div>
     <div class="group">
         <label for="">Имя:</label>
-        <textarea><input type="text" name="NamePerson" maxlength="12"></textarea>
+        <input type="text"pattern="[A-Za-zА-Яа-яЁё]" name="NamePerson" maxlength="12">
     </div>
     <div class="group">
-        <textarea><label for="">Отчество:</label></textarea>
-        <input type="text">
+        <label for="">Отчество:</label>
+        <input type="text" pattern="[A-Za-zА-Яа-яЁё]"  maxlength="12">
     </div>
     <div class="group" >
         <label for="">Пол:</label>
