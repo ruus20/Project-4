@@ -24,7 +24,7 @@ form{
     background: linear-gradient(135deg, rgba(160,15,233,1) 4%,rgba(188,10,238,1) 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a00fe9', endColorstr='#bc0aee',GradientType=1 );
     width: 450px;
-    height: 550px;
+    height: 650px;
     padding: 20px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
